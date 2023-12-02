@@ -53,7 +53,7 @@
             this.lblAtividade.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAtividade.Location = new System.Drawing.Point(96, 197);
             this.lblAtividade.Name = "lblAtividade";
-            this.lblAtividade.Size = new System.Drawing.Size(104, 26);
+            this.lblAtividade.Size = new System.Drawing.Size(83, 21);
             this.lblAtividade.TabIndex = 3;
             this.lblAtividade.Text = "Atividade";
             // 
@@ -61,9 +61,9 @@
             // 
             this.lblTurma.AutoSize = true;
             this.lblTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTurma.Location = new System.Drawing.Point(94, 101);
+            this.lblTurma.Location = new System.Drawing.Point(281, 106);
             this.lblTurma.Name = "lblTurma";
-            this.lblTurma.Size = new System.Drawing.Size(93, 31);
+            this.lblTurma.Size = new System.Drawing.Size(74, 25);
             this.lblTurma.TabIndex = 4;
             this.lblTurma.Text = "Turma";
             // 
@@ -77,13 +77,14 @@
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnCadastrar.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.Location = new System.Drawing.Point(617, 223);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(120, 33);
+            this.btnCadastrar.Size = new System.Drawing.Size(133, 32);
             this.btnCadastrar.TabIndex = 7;
             this.btnCadastrar.Text = "&Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnSair

@@ -39,18 +39,20 @@
             // 
             // btnEntrar
             // 
+            this.btnEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnEntrar.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.Location = new System.Drawing.Point(273, 303);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(70, 33);
+            this.btnEntrar.Size = new System.Drawing.Size(77, 33);
             this.btnEntrar.TabIndex = 0;
             this.btnEntrar.Text = "&Entrar";
-            this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.UseVisualStyleBackColor = false;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 
             this.btnSair.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnSair.Location = new System.Drawing.Point(433, 303);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(84, 33);
@@ -106,7 +108,7 @@
             this.txtSenha.Size = new System.Drawing.Size(396, 28);
             this.txtSenha.TabIndex = 5;
             // 
-            // Form1
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,7 +120,7 @@
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
-            this.Name = "Form1";
+            this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
