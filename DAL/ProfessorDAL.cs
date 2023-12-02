@@ -41,7 +41,7 @@ namespace DAL
             catch (Exception ex)
             {
 
-                throw new Exception("Erro ao tentar validar professor no sistema ");
+                throw new Exception("Erro ao tentar validar professor no sistema " + ex);
             }
             finally
             {

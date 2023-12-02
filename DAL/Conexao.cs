@@ -14,6 +14,15 @@ namespace DAL
         {
             get
             {
+
+                //return @"User Id=Leandro_Sousa\leand;Initial Catalog=Gestao;Data Source=.\LEANDRO_SOUSA";
+
+                // return "User ID=SA;Initial Catalog=sgreservas;Data Source=.\\SQLEXPRESS2019;Password=Senailab02";
+
+                //return @"User Id = leand; Initial catalog= GestaoEscolar; Data Source= LEANDRO_SOUSA";
+
+
+
                 if (String.IsNullOrEmpty(Constantes.StringDeConexao))
                 {
                     if (File.Exists(Constantes.DiretorioStringConexao + Constantes.NomeArquivoConexao))

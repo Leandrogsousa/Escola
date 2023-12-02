@@ -12,6 +12,6 @@ namespace Model
         public static string UsuarioLogado;
         public static string StringDeConexao;
         public static string DiretorioStringConexao = "C:\\Configuracao\\";
-        public static string NomeArquivoConexao = "GestaoAtividade03Connection.config";
+        public static string NomeArquivoConexao = "GestaoEscolarConnection.config";
     }
 }

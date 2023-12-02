@@ -47,5 +47,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Turma.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Atividade.datasource" />
+    <None Include="Properties\DataSources\Constantes.datasource" />
+    <None Include="Properties\DataSources\Professor.datasource" />
+    <None Include="Properties\DataSources\Turma.datasource" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

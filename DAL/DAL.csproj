@@ -43,8 +43,23 @@
   <ItemGroup>
     <Compile Include="AtividadeDAL.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="GestaoEscolarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestaoEscolarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GestaoEscolarDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestaoEscolarDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ProfessorDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="TurmaDAL.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +67,42 @@
       <Project>{FA5A854A-6563-4612-B7E2-574C58976623}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="GestaoEscolarDataSet.xsc">
+      <DependentUpon>GestaoEscolarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestaoEscolarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestaoEscolarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestaoEscolarDataSet.xss">
+      <DependentUpon>GestaoEscolarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestaoEscolarDataSet1.xsc">
+      <DependentUpon>GestaoEscolarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GestaoEscolarDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestaoEscolarDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestaoEscolarDataSet1.xss">
+      <DependentUpon>GestaoEscolarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Model.Atividade.datasource" />
+    <None Include="Properties\DataSources\Model.Constantes.datasource" />
+    <None Include="Properties\DataSources\Model.Professor.datasource" />
+    <None Include="Properties\DataSources\Model.Turma.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
