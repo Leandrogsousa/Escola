@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,7 +20,7 @@ namespace GestaoEscolar
             InitializeComponent();
         }
 
-        private void btnEntrar_Click(object sender, EventArgs e)
+        public void btnEntrar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -43,6 +44,8 @@ namespace GestaoEscolar
 
                 MessageBox.Show(ex.Message);
             }
+          
+
 
         }
 

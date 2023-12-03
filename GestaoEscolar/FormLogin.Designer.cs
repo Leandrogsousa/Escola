@@ -68,9 +68,9 @@
             this.lblLogin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblLogin.Location = new System.Drawing.Point(353, 57);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(77, 33);
+            this.lblLogin.Size = new System.Drawing.Size(168, 41);
             this.lblLogin.TabIndex = 2;
-            this.lblLogin.Text = "Login";
+            this.lblLogin.Text = "Bem Vindo";
             // 
             // lblUsuario
             // 
